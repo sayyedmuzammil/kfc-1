@@ -1,0 +1,402 @@
+.header{
+    /* background: white; */
+    height: 50px;
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
+    width: 100%;
+    align-items: center;
+    display: flex;
+    /* position: sticky; */
+    top: 0;
+    margin-bottom: -40px;
+    background:  #f9f5f2; 
+    background-image: url(https://www.kfc.com.sg//Content/OnlineOrderingImages/Shared/end-of-bg.png);
+
+}
+.container1{
+    margin-left: 17%;
+    margin-right: 10%;
+}
+body{
+    
+    background: #f9f5f2; 
+    /* background-image: url(https://www.kfc.com.sg//Content/OnlineOrderingImages/Shared/end-of-bg.png); */
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.menu{
+
+    display: block;
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    width: 40px;
+    margin: 0 auto;
+    
+}
+.logo{
+    align-items: center; 
+     padding-left: 410px;
+    /* vertical-align: middle; */
+    height: 30px;
+    /* align-content: center */
+    /* vertical-align: ; */
+    align-items: center;
+    
+}
+.promo{
+    float: right;
+    padding-left: 410px;
+    align-items: center;
+    height: 30px;
+
+
+}
+.main{
+    
+    /* margin-top: -40px; */
+}
+
+.main-head{
+    color: #fff;
+    text-shadow: 0 11px 13px #020202;
+    font-size: 55px;
+    /* font-weight: bold; */
+    text-align: center;
+    /* font-stretch: expanded; */
+    /* font-weight: bold; */
+    font-weight: 600,bold;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    /* margin-top: 100px; */
+}
+.main-options{
+    /* margin-left: 20px; */
+    vertical-align: middle;
+    cursor: pointer;
+    width: 33%;
+    padding-top: 16px;
+    /* margin-top: ; */
+    padding-bottom: 19px;
+    font-weight: 700;
+    color: #fff;
+    background: #e4002b;
+    margin: 10px;
+    border-radius: 6px;
+    font-size: 24px;
+    box-shadow: rgb(0 0 0 / 40%) 0 9px 6px 0;
+    padding-left: 16px;
+    align-items: center;
+    /* vertical-align: middle; */
+}
+.main-options:hover{
+    color: black;
+}
+.orders{
+
+    width: 34px;
+    height: 34px;
+    /* padding-top: 50px; */
+    padding-left: 100px;
+    padding-right: 10px;
+    vertical-align: middle;
+    align-items: center;
+
+    /* padding-top: 5px; */
+    /* float: right; */
+}
+.option-menus{
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 50px;
+    /* vertical-align: middle; */
+}
+.first{
+    width: 1024px;
+    height: 426px;
+    /* position: relative; */
+    /* background-size: cover; */
+    /* background-position: 50% 50%; */
+    background-image: url('https://www.kfc.com.sg//Content/OnlineOrderingImages/Menu/Category/Carousel/HomePage-KFC-Billboard-D-v2.jpg');
+}
+.second{
+    width:450px;
+    background-image: url('https://www.bing.com/images/search?view=detailV2&ccid=R5y3YPXI&id=343C76C993CCA0ADD6BC4418998E0CC0DDD057EA&thid=OIP.R5y3YPXIcDnh2eDlPezisQAAAA&mediaurl=https%3A%2F%2Fwww.freeiconspng.com%2Fthumbs%2Fline-png%2Fline-png-16.png&exph=320&expw=320&q=Single+Line+PNG&simid=608045078704643653&form=IRPRST&ck=795C6B58D68BC11CAD9125509D4E96D0&selectedindex=26&ajaxhist=0&ajaxserp=0&vt=0');
+
+}
+/* .line1{
+    /* align-items: center; */
+    /* width: 350px;
+    margin-left: 0;
+    margin-top: 5px;
+    margin-bottom: -50px;
+    height: 2px;
+    align-items: ;
+    position: relative; */
+    /* color: black; */
+/* } */
+.second-head{
+    color: #231f20;
+    font-family: BebasNeue,sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    /* line-height: 60px; */
+    /* margin: 10px auto 0; */
+    padding-bottom: 5px;
+    float: right;
+    /* vertical-align: 50%; */
+    /* margin-left: 17%; */
+    margin-right: -180px; 
+    margin-bottom: 30px;
+    position: relative;
+    
+    /* background-color:black; */
+}
+.second-head:before , .second-head:after{
+    content: "";
+    display:block;
+    width: 350px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    /* left: -170%; */
+}
+.second-head:before{
+    left: -170%;
+}
+.second-head:after{
+    right: -170%;
+}
+
+#slider{
+    overflow: hidden;
+    width :1024px;
+    height: 427px;
+    /* margin-top: 20px; */
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+
+}
+@keyframes slider{
+0%{
+    left: 0%;
+}
+20%{
+    left: 0%;
+}
+25%{
+    left: -100%;
+}
+45%{
+    left: -100%;
+}
+50%{
+    left: -200%;
+}
+70%{
+    left: -200%;
+}
+75%{
+    left: -300%;
+}
+95%{
+    left: -300%;
+}
+100%{
+    left: -400%;
+}
+}
+/* .button_1{
+    width:5px;
+    height: 5px;
+    position: absolute;
+    top:100%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+} */
+/* .promo-image{
+    
+    /* background-image: url('https://www.kfc.com.sg/Content/OnlineOrderingImages/Shared/RewardsIcon_Thumbnail.jpg'); */
+    /* width:25px;
+    height: 25px;
+    content: "";
+    min-height: auto!important;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    cursor: pointer;
+} */ 
+.hometile{
+    width:1300px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    
+    
+    /* -right: 25px; */
+}
+.tile-images{
+    display: flex ;
+    width: 225px;
+    height: 225px;
+    padding-right: 41px;
+    /* box-shadow: 0 0 21px 1px rgb(0 0 0 / 36%); */
+}
+.promo-tile{
+    /* font-weight: ;  */
+    font-size: 20px;
+    width:215px;
+    /* text-decoration: none; */
+    background: white;
+    /* /* padding-right: 88px; */
+    padding-bottom: 25px;
+    padding-top: 25px; 
+    /* padding-right: 250px; */
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    padding-left: 10px ;
+    padding-top: 20px;
+    padding-right: -20px;
+    box-shadow: 0 0 21px 1px rgb(0 0 0 / 36%);
+}
+.promo-tile:hover{
+    color: #e4002b;
+}
+a{
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+.promo-tile1{
+    /* font-weight: 500; */
+    font-size: 20px;
+    width:215px;
+    /* text-decoration: none; */
+    background: white;
+    /* /* padding-right: 88px; */
+    padding-bottom: 10px; 
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left:10px ;
+    padding-top: 10px;
+    padding-right: -10px;
+    box-shadow: 0 0 21px 1px rgb(0 0 0 / 36%);
+    /* align: center; */
+    /* ; */
+
+    /* padding-right: 250px; */
+}
+.promo-tile1:hover{
+    color: #e4002b;
+}
+.first-tile{
+    padding-bottom: -50px;
+}
+.line{
+    /* margin-top: 0; */
+    /* margin-left: -55px;   */
+    /* margin-right: 55px; */
+    margin: 0 auto;
+    width: 224px;
+    margin-left: 0;
+    
+    
+}
+.right-arrow{
+    width:15px;
+    height:15px;
+    padding-left: 5px;
+}
+.right-arrow:hover{
+    color: #e4002b;;
+}
+/* 
+.home-tile{
+    display: block;
+    color: #2d2926;
+    font-family: sans-serif;
+    font-size: 1cm;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #2d2926;
+    font-family: Assistant,sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    letter-spacing: normal;
+    background: #ebebeb;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+    
+
+} */
+
+/* .logo_image{
+    float: left;
+    
+} */
+footer::before{
+    width: 1024px;
+content: " ";
+display: block;
+height: 152px;
+background-image: url(https://www.kfc.com.sg//Content/OnlineOrderingImages/Shared/md/kfc-footer-logo.png),url(https://www.kfc.com.sg//Content/OnlineOrderingImages/Shared/end-of-bg.png);
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: auto,100% 100%;
+margin-left: 17%;
+    margin-right: 10%;
+
+}
+footer::after{
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+    
+    width: 100%;   
+}
+.table{
+    font-family: "Arial Rounded MT",Arial,Helvetica,sans-serif;
+    color: #2d2926;
+    text-decoration: none;
+    font-weight: 100;
+    /* transition: color .3s ease-out; */
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    justify-content:  space-evenly;
+    /* margin:-15%; */
+}
+
+
+.coloumn_1 , .row1  {
+    /* margin-left: 100px; */
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* .row1{
+    /* margin-left: 100px; */
+    /* justify-content: space-around;
+    font-weight: 700;
+    font-size: 14px; */
+
+
+.table{
+    
+}
